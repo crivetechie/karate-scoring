@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.total-display {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  width: 100%; /* updated to full width */
+  box-sizing: border-box; /* include padding in width calculation */
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  overflow: auto; /* if text is too long, scroll */
+  text-align: center;
+}
+
+total-display:active {
+  background-color: yellow; /* pressed background color */
+  color: white; /* pressed text color */
+}

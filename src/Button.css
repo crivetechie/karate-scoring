@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+button {
+  font-family: "Roboto", sans-serif; /* modern font */
+  font-size: 24px; /* bigger text */
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey; /* not pressed background color */
+  color: black; /* not pressed text color */
+}
+
+button:active {
+  background-color: green; /* pressed background color */
+  color: white; /* pressed text color */
+}

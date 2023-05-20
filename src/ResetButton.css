@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.reset-button {
+  font-family: "Roboto", sans-serif; /* modern font */
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
