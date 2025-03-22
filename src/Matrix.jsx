@@ -29,12 +29,14 @@ const Matrix = () => {
         })}
       </div>
       <ResetButton onClick={handleReset} />
-      {/* Display operations followed by equals sign and total */}
-      <TotalDisplay
-        total={`${operations.join(" , ")} ${
-          operations.length > 0 ? "=" : ""
-        } ${total.toFixed(1)}`}
-      />
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+        <div style={{ width: '80%' }}>
+          <TotalDisplay total={`${operations.join(" , ")}`} />
+        </div>
+        <div style={{ width: '20%' }}>
+          <TotalDisplay total={`${total.toFixed(1)}`} />
+        </div>
+      </div>
     </div>
   );
 };
